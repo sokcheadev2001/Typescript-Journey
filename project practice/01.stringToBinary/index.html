@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Convert String to Binary</title>
+    <script src="../../dist/project practice/01.stringToBinary/index.js"></script>
+    <style>
+      body {
+        background-color: #ffffff;
+      }
+      .contain {
+        padding: 80px;
+      }
+      .heading {
+        font-size: 30px;
+        font-weight: 900;
+      }
+      .text-center {
+        text-align: center;
+      }
+      .form-control {
+        width: 50%;
+        padding: 10px 15px;
+        margin: 5px auto;
+        border: solid 1px #333333;
+        border-radius: 3px;
+      }
+      .button {
+        width: 100px;
+        padding: 10px 20px;
+        margin: auto;
+        background-color: deepskyblue;
+        border: 1px solid gray;
+        border-radius: 3px;
+      }
+      .background {
+        background-color: #444444;
+        background: linear-gradient(
+          90deg,
+          rgba(8, 237, 192, 1) 35%,
+          rgba(0, 212, 255, 1) 100%
+        );
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        padding: 50px;
+        border-radius: 5px;
+        box-shadow: 0px 0px 20px teal;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="contain">
+      <div class="background">
+        <h3 class="heading text-center">Convert String to Binary Code</h3>
+        <p class="text-center">Please, input some value to convert</p>
+
+        <input
+          class="form-control"
+          type="text"
+          name="input_string"
+          id="string"
+        />
+        <button type="button" class="button" onclick="convertToBinary()">
+          Convert
+        </button>
+        <textarea
+          class="form-control"
+          type="text"
+          name="binary"
+          id="binary"
+          rows="8"
+        ></textarea>
+      </div>
+    </div>
+  </body>
+</html>
